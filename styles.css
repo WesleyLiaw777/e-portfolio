@@ -285,7 +285,7 @@ LANGUAGES
 }
 
 .language{
-    width: 25%;
+    width: 33%;
     display: flex;
     justify-content: center;
     position: relative;
@@ -309,7 +309,7 @@ LANGUAGES
 
 .language__img{
     width: 100%;
-    max-width: 100px;
+    max-width: 80px;
     transition: all 300ms;
 }
 
