@@ -5,7 +5,7 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
-
+d
 html{
     scroll-behavior: smooth;
 }
@@ -656,12 +656,6 @@ SHAPES
     left: 80vw;
 }
 
-@media(max-width: 1000px){
-    .modal__language{
-        width: 40%;
-    }
-}
-
 @media(max-width: 768px) {
     .title{
         font-size: 80px;
@@ -669,6 +663,12 @@ SHAPES
     .header__para{
         font-size: 20px;
     }
+    
+    input{
+        height: 20px;
+        margin-top: 12px;
+    }
+    
     .modal{
         top: 0;
         left: 0;
