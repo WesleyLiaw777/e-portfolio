@@ -60,7 +60,7 @@
             <span class="text__emphasis">Frontend Software Engineer </span>
             with a passion for bringing tech solutions to personal problems.
             <br />
-            Here's a bit more <span class="text__emphasis click" onclick="toggleModal()"> about me</span>.
+            Here's a bit more <span class="text__emphasis click underline" onclick="toggleModal()"> about me</span>.
           </p>
           <div class="about-me__links">
             <a
@@ -105,9 +105,10 @@
             <p class="modal__para">
                 I'm a 23 year old Texan
                 <span class="text__emphasis">Frontend Software Engineer </span>
-                with a passion for bringing tech solutions to personal problems.
+                with a passion for optimizing business and lifestyle with tech solutions.
                 <br>
-                I've developed websites for businesses, e-commerce, and filtering movies with
+                I've developed e-commerce websites, movie databases, and top tech clones with
+                <span class="text__emphasis">React</span>,
                 <span class="text__emphasis">HTML</span>,
                 <span class="text__emphasis">CSS</span>, and
                 <span class="text__emphasis">JavaScript</span>.
@@ -115,20 +116,37 @@
             <div class="modal__languages">
                 <figure class="modal__language">
                     <img class="modal__language--img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/240px-HTML5_Badge.svg.png" alt="">
-                    <span class="language__name">HTML</span>
+                    <span class="language__name html__text">HTML</span>
                 </figure>
                 <figure class="modal__language">
                     <img class="modal__language--img" src="https://cdn.iconscout.com/icon/free/png-256/css-131-722685.png" alt="">
-                    <span class="language__name">CSS</span>
+                    <span class="language__name css__text">CSS</span>
                 </figure>
                 <figure class="modal__language">
                     <img class="modal__language--img" src="https://cdn.iconscout.com/icon/free/png-256/javascript-1-225993.png" alt="">
-                    <span class="language__name">JavaScript</span>
+                    <span class="language__name js__text">JavaScript</span>
                 </figure>
                 <figure class="modal__language">
                     <img class="modal__language--img" src="https://cdn.iconscout.com/icon/free/png-256/react-3-1175109.png" alt="">
-                    <span class="language__name">React</span>
+                    <span class="language__name react__text">React</span>
                 </figure>
+                <figure class="modal__language">
+                    <img class="modal__language--img" src="/assets/typescript.png" alt="">
+                    <span class="language__name ts__text">Typescript</span>
+                </figure>
+                <figure class="modal__language">
+                    <img class="modal__language--img" src="/assets/tailwind2.png" alt="">
+                    <span class="language__name tailwind__text">Tailwind</span>
+                </figure>
+                <figure class="modal__language">
+                    <img class="modal__language--img" src="/assets/firebase.png" alt="">
+                    <span class="language__name firebase__text">Firebase</span>
+                </figure>
+                <figure class="modal__language">
+                    <img class="modal__language--img" src="/assets/nextjs.jpg" alt="">
+                    <span class="language__name next__text">Next.js</span>
+                </figure>
+                
             </div>
         </div>
         <div class="modal__half modal__contact">
@@ -180,6 +198,33 @@
             <li class="project">
               <div class="project__wrapper">
                 <img
+                  src="./assets/netflix_bg.png"
+                  alt=""
+                  class="project__img"
+                />
+                <div class="project__wrapper--bg"></div>
+                <div class="project__description">
+                  <h3 class="project__description--title">Netflix Clone</h3>
+                  <h4 class="project__description--sub-title">
+                    HTML, CSS, JavaScript, Next.js, Material UI, Tailwind
+                  </h4>
+                  <p class="project__description--para">
+                    Built a fully responsive movie app where users can view various categories (Documentaries, Romance, Action) and see the trailers.
+                  </p>
+                  <div class="project__description--links">
+                    <a href="https://github.com/WesleyLiaw777/netflix-clone" target="_blank" class="project__description--link">
+                      <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://block-movie-clone-zeta-taupe.vercel.app/" target="_blank"  class="project__description--link">
+                      <i class="fa-solid fa-link"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="project">
+              <div class="project__wrapper">
+                <img
                   src="./assets/blinker mockup.png"
                   alt=""
                   class="project__img"
@@ -195,10 +240,10 @@
                     Placeat at error delectus.
                   </p>
                   <div class="project__description--links">
-                    <a href="#" class="project__description--link">
+                    <a href="#" class="project__description--link" target="_blank" >
                       <i class="fab fa-github"></i>
                     </a>
-                    <a href="#" class="project__description--link">
+                    <a href="#" class="project__description--link" target="_blank" >
                       <i class="fab fa-linkedin"></i>
                     </a>
                   </div>
@@ -223,38 +268,10 @@
                     Placeat at error delectus.
                   </p>
                   <div class="project__description--links">
-                    <a href="#" class="project__description--link">
+                    <a href="#" class="project__description--link" target="_blank" >
                       <i class="fab fa-github"></i>
                     </a>
-                    <a href="#" class="project__description--link">
-                      <i class="fab fa-linkedin"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </li>
-            <li class="project">
-              <div class="project__wrapper">
-                <img
-                  src="./assets/blinker mockup.png"
-                  alt=""
-                  class="project__img"
-                />
-                <div class="project__wrapper--bg"></div>
-                <div class="project__description">
-                  <h3 class="project__description--title">Car Sales Project</h3>
-                  <h4 class="project__description--sub-title">
-                    HTML, CSS, JavaScript, Vue, Vuex
-                  </h4>
-                  <p class="project__description--para">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Placeat at error delectus.
-                  </p>
-                  <div class="project__description--links">
-                    <a href="#" class="project__description--link">
-                      <i class="fab fa-github"></i>
-                    </a>
-                    <a href="#" class="project__description--link">
+                    <a href="#" class="project__description--link" target="_blank" >
                       <i class="fab fa-linkedin"></i>
                     </a>
                   </div>
@@ -274,14 +291,14 @@
               <img class="footer__logo--img" src="./assets/logo.jpg" alt="" />
             </figure>
             <div class="footer__social--list">
-              <a href="" class="
+              <a href="https://www.github.com/WesleyLiaw777" target="_blank" class="
               footer__social--link
               link__hover-effect
               link__hover-effect--white
               ">
                 GitHub
             </a>
-              <a href="" class="
+              <a href="https://www.linkedin.com/in/wesleyliaw/" target="_blank" class="
               footer__social--link
               link__hover-effect
               link__hover-effect--white
